@@ -113,16 +113,33 @@ h2 {
 }
 
 #education div {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin: 50px 0;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 #education span {
   font-weight: bold;
 }
 
+.vue-js {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+}
+
+.vue-js p {
+  font-weight: 900;
+  margin: 0;
+  color: #190f33;
+  font-size: 16px;
+}
+
+.vue-js img {
+  max-height: 80px;
+}
 #projects p {
   text-align: center;
 }
