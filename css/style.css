@@ -154,6 +154,20 @@ h4 {
   list-style-type: disc;
 }
 
+.btn-easyjet {
+  padding: 7px 15px;
+  background-color: #f70;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 2px;
+  align-self: flex-start;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
 #contact div {
   height: 50px;
   display: flex;
