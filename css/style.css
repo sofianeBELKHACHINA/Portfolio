@@ -163,7 +163,7 @@ h4 {
   border-radius: 2px;
   align-self: flex-start;
   text-decoration: none;
-  display: inline-block;
+  display: block;
   cursor: pointer;
   margin-top: 10px;
 }
