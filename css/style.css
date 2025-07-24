@@ -109,7 +109,7 @@ h2 {
 }
 
 #education img {
-  height: 100px;
+  height: 80px;
 }
 
 #education div {
@@ -121,28 +121,6 @@ h2 {
 
 #education span {
   font-weight: bold;
-}
-
-.technos {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: auto;
-}
-
-.technos p {
-  font-weight: 900;
-  margin: 0;
-  color: #190f33;
-  font-size: 16px;
-}
-
-.technos img {
-  max-height: 80px;
-}
-
-.ex-background-color {
-  color: #eeeef7;
 }
 #projects p {
   text-align: center;
