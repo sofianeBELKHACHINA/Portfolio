@@ -1,0 +1,107 @@
+@media screen and (max-width: 1024px) {
+  main {
+    width: 95%;
+    padding: 0 10px;
+  }
+
+  section {
+    padding: 60px 20px;
+  }
+
+  nav {
+    flex-direction: column;
+    height: auto;
+  }
+
+  nav a {
+    padding: 12px 0;
+    font-size: 18px;
+  }
+
+  .informations {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .informations img {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  #education div,
+  #contact div {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  #education img,
+  #contact img {
+    height: 70px;
+  }
+
+  .project-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .project-container img {
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto 30px;
+  }
+
+  .btn-easyjet {
+    margin: 20px auto 0;
+  }
+
+  footer {
+    padding: 40px 20px;
+    text-align: center;
+    height: auto;
+  }
+
+  footer p,
+  footer a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 32px;
+    line-height: 120px;
+  }
+
+  h2 {
+    font-size: 22px;
+    margin-bottom: 40px;
+  }
+
+  h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .name {
+    font-size: 26px;
+  }
+
+  .city {
+    font-size: 18px;
+  }
+
+  nav a {
+    font-size: 16px;
+  }
+
+  #education img,
+  .technos img {
+    height: 50px;
+  }
+
+  #contact img {
+    height: 20px;
+  }
+}
