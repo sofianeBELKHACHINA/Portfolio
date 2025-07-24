@@ -29,6 +29,10 @@
     margin-bottom: 30px;
   }
 
+  .city {
+    margin-bottom: 30px;
+  }
+
   #education div,
   #contact div {
     flex-wrap: wrap;
