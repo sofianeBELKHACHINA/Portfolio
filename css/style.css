@@ -112,13 +112,13 @@ h2 {
   height: 80px;
 }
 
-#education div {
-  margin: 50px 0;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+#education .logo-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-items: center;
+  margin: 30px 0;
 }
-
 #education span {
   font-weight: bold;
 }
